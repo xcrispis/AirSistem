@@ -1,0 +1,14 @@
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\bin\Debug\AvaliaçãoFinal.exe.config
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\bin\Debug\AvaliaçãoFinal.exe
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\bin\Debug\AvaliaçãoFinal.pdb
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.csprojAssemblyReference.cache
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.Form1.resources
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.Properties.Resources.resources
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.csproj.GenerateResource.cache
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.csproj.CoreCompileInputs.cache
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.exe
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.pdb
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.TelaCadastro.resources
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.DataViewer.resources
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.TelaPrincipalAdmin.resources
+C:\Users\uyguy\source\repos\AvaliaçãoFinal\AvaliaçãoFinal\obj\Debug\AvaliaçãoFinal.TelaPrincipalUsuario.resources
