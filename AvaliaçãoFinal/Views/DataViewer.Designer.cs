@@ -28,33 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridViewer = new System.Windows.Forms.DataGridView();
+            this.lblContador = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewer)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridViewer
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(382, 335);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewer.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewer.Name = "dataGridViewer";
+            this.dataGridViewer.Size = new System.Drawing.Size(382, 335);
+            this.dataGridViewer.TabIndex = 0;
+            this.dataGridViewer.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // lblContador
+            // 
+            this.lblContador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblContador.AutoSize = true;
+            this.lblContador.Location = new System.Drawing.Point(417, 334);
+            this.lblContador.Name = "lblContador";
+            this.lblContador.Size = new System.Drawing.Size(35, 13);
+            this.lblContador.TabIndex = 5;
+            this.lblContador.Text = "label2";
             // 
             // DataViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.lblContador);
+            this.Controls.Add(this.dataGridViewer);
             this.Name = "DataViewer";
             this.Text = "DataViewer";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.DataViewer_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewer)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewer;
+        private System.Windows.Forms.Label lblContador;
     }
 }

@@ -191,6 +191,15 @@ namespace AvaliaçãoFinal
         {
             senhaCampoConfirma.BackColor = System.Drawing.Color.White;
         }
+
+        private void TelaCadastro_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Tem certeza que quer fechar?", "Confirmação",
+               MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 
 

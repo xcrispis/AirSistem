@@ -302,6 +302,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TelaCadastro";
             this.Text = "Form4";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaCadastro_FormClosing);
             this.Load += new System.EventHandler(this.TelaCadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

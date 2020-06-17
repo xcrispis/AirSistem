@@ -12,7 +12,7 @@ namespace AvaliaçãoFinal.Models
         public int codigo { get; set; }
         public string nome { get; set; }
         public string sobrenome { get; set; }
-        public DateTime data { get; set; }
+        public string data { get; set; }
         public string usuario { get; set; }
         public string senha { get; set; }
     }
