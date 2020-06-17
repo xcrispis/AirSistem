@@ -47,5 +47,19 @@ namespace AvaliaçãoFinal
         {
 
         }
+
+        private void searchBox_TextChanged(object sender, EventArgs e)
+        {
+            dataGridViewer.DataSource = null;
+
+            // filtra as lista recebida do repositório, verificando se o nome, 
+            // email, usuario, contém o que está no campo filtro.
+            dataGridViewer.DataSource = repository.buscarTodos().FindAll(x =>
+                x.nome.ToUpper().Contains(searchBox.Text.ToUpper()) ||
+                x.usuario.ToUpper().Contains(searchBox.Text.ToUpper())
+            );
+
+            alterarContador();
+        }
     }
 }
